@@ -1,0 +1,32 @@
+.Home {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.Home-logo {
+  animation: Home-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Home-header {
+  margin-top: 10px;
+  text-align: left;
+  background-color: #7ac0da;
+  height: 100px;
+  padding: 20px 40px 30px 40px;
+  color: white;
+}
+
+.Home-title {
+  font-size: 2em;
+  font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+}
+
+.Home-intro {
+  font-size: large;
+}
+
+@keyframes Home-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
